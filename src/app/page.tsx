@@ -9,8 +9,8 @@ function cleanTitle(fullTitle) {
   // Also remove "GitHub - " if it's just that
   cleaned = cleaned.replace(/^GitHub - /i, '');
   
-  // Split by common separators (- | :) and take the first part
-  const parts = cleaned.split(/[-|:]/);
+  // Split by common separators (- | : — – ·) and take the first part
+  const parts = cleaned.split(/[-|:—–·]/);
   return parts[0].trim();
 }
 
@@ -19,16 +19,13 @@ function ToolCard({ tool, onClick }) {
   const timerRef = useRef(null);
 
   const handleMouseEnter = () => {
-    // Start a 1-second timer to flip the card
     timerRef.current = setTimeout(() => {
       setIsFlipped(true);
     }, 1000);
   };
 
   const handleMouseLeave = () => {
-    if (timerRef.current) {
-      clearTimeout(timerRef.current);
-    }
+    if (timerRef.current) clearTimeout(timerRef.current);
     setIsFlipped(false);
   };
 
@@ -48,68 +45,71 @@ function ToolCard({ tool, onClick }) {
       onMouseLeave={handleMouseLeave}
       onClick={onClick}
     >
-      <div className={`w-full h-full transition-transform duration-700 preserve-3d ${isFlipped ? 'rotate-y-180' : ''}`}>
+      <div className={`w-full h-full transition-all duration-700 preserve-3d ${isFlipped ? 'rotate-y-180 scale-105' : 'scale-100'}`}>
         
         {/* FRONT OF CARD */}
-        <div className="absolute inset-0 backface-hidden bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm group-hover:shadow-lg group-hover:border-blue-400 dark:group-hover:border-blue-500 transition-all flex flex-col">
+        <div className="absolute inset-0 backface-hidden bg-white/70 dark:bg-white/[0.02] backdrop-blur-xl rounded-2xl border border-gray-200/50 dark:border-white/[0.05] overflow-hidden shadow-sm group-hover:shadow-xl dark:group-hover:shadow-2xl dark:group-hover:shadow-white/[0.02] group-hover:-translate-y-1 group-hover:bg-white dark:group-hover:bg-white/[0.04] transition-all duration-300 flex flex-col z-10">
           <div className="p-5 flex-1 flex flex-col">
-            <div className="flex flex-wrap items-start gap-2 mb-3">
-              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 border border-purple-200 dark:border-purple-800/50">
+            <div className="flex flex-wrap items-start gap-2 mb-4">
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-gray-100/80 dark:bg-white/[0.05] text-gray-600 dark:text-gray-300 border border-gray-200/50 dark:border-white/[0.05]">
                 {tool.category}
               </span>
             </div>
-            <div className="flex items-center gap-3 mb-2">
+            <div className="flex items-center gap-4 mb-3">
               {tool.icon ? (
                 /* eslint-disable-next-line @next/next/no-img-element */
-                <img src={tool.icon} alt="favicon" className="w-8 h-8 rounded-md bg-white border border-gray-100 dark:border-gray-600 object-contain p-0.5" />
+                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${tool.icon}`} alt="favicon" className="w-9 h-9 rounded-xl bg-white dark:bg-white/5 border border-gray-200/50 dark:border-white/[0.1] object-contain p-1 shadow-sm" />
               ) : (
-                <div className="w-8 h-8 rounded-md bg-gray-100 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 flex items-center justify-center text-gray-500 dark:text-gray-300 font-bold text-xs uppercase">
+                <div className="w-9 h-9 rounded-xl bg-gray-100 dark:bg-white/[0.05] border border-gray-200/50 dark:border-white/[0.1] flex items-center justify-center text-gray-500 dark:text-gray-400 font-bold text-sm uppercase shadow-sm">
                   {displayName.substring(0, 1)}
                 </div>
               )}
-              <h3 className="text-lg font-bold text-gray-900 dark:text-white line-clamp-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors" title={tool.title}>
+              <h3 className="text-lg font-semibold tracking-tight text-gray-900 dark:text-gray-100 line-clamp-1 group-hover:text-black dark:group-hover:text-white transition-colors" title={tool.title}>
                 {displayName}
               </h3>
             </div>
             {tool.description && (
-              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 line-clamp-3" title={tool.description}>
+              <p className="mt-1 text-sm text-gray-500 dark:text-gray-400/80 line-clamp-2 leading-relaxed" title={tool.description}>
                 {tool.description}
               </p>
             )}
           </div>
-          <div className="bg-gray-50 dark:bg-gray-900/50 px-5 py-3 border-t border-gray-100 dark:border-gray-700 flex items-center justify-between">
-            <span className="text-sm font-medium text-blue-600 dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">View Details →</span>
-            <div className="flex gap-2">
-              {tool.websiteUrl && <span className="w-2 h-2 rounded-full bg-blue-500 shadow-[0_0_5px_rgba(59,130,246,0.5)]"></span>}
-              {tool.githubUrl && <span className="w-2 h-2 rounded-full bg-gray-800 dark:bg-white shadow-[0_0_5px_rgba(255,255,255,0.2)]"></span>}
+          <div className="bg-gray-50/50 dark:bg-black/20 px-5 py-3 border-t border-gray-100 dark:border-white/[0.02] flex items-center justify-between backdrop-blur-md">
+            <span className="text-xs font-semibold tracking-wide text-gray-900 dark:text-white opacity-0 translate-y-1 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">View Details &rarr;</span>
+            <div className="flex gap-1.5 opacity-60 group-hover:opacity-100 transition-opacity">
+              {tool.websiteUrl && <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.5)]"></span>}
+              {tool.githubUrl && <span className="w-2 h-2 rounded-full bg-gray-900 dark:bg-white shadow-[0_0_8px_rgba(255,255,255,0.3)]"></span>}
             </div>
           </div>
         </div>
 
         {/* BACK OF CARD (Flipped State) */}
-        <div className="absolute inset-0 backface-hidden rotate-y-180 bg-gradient-to-br from-slate-800 to-slate-950 dark:from-slate-900 dark:to-black rounded-xl border border-slate-700 overflow-hidden shadow-2xl flex flex-col items-center p-6 text-center">
+        <div className="absolute inset-0 backface-hidden rotate-y-180 bg-[#0A0A0A] rounded-2xl border border-white/[0.1] overflow-hidden shadow-2xl flex flex-col items-center p-6 text-center z-20">
+           {/* Subtle glow behind the icon */}
+           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-blue-500/20 blur-[40px] rounded-full pointer-events-none"></div>
+           
            <div className="absolute top-4 left-4">
-              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/30 uppercase tracking-wider">
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-[9px] font-bold bg-white/[0.05] text-gray-300 border border-white/[0.05] uppercase tracking-widest">
                 {tool.category}
               </span>
            </div>
            
-           <div className="w-14 h-14 bg-white rounded-xl flex items-center justify-center mb-3 mt-4 shadow-lg overflow-hidden p-1">
+           <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mb-4 mt-6 shadow-[0_0_15px_rgba(255,255,255,0.1)] overflow-hidden p-1 z-10">
               {tool.icon ? (
                 /* eslint-disable-next-line @next/next/no-img-element */
-                <img src={tool.icon} alt="favicon" className="w-full h-full object-contain" />
+                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${tool.icon}`} alt="favicon" className="w-full h-full object-contain" />
               ) : (
-                <span className="text-xl font-bold text-slate-800">{displayName.substring(0, 1)}</span>
+                <span className="text-lg font-bold text-black">{displayName.substring(0, 1)}</span>
               )}
            </div>
-           <h3 className={`font-bold text-white mb-1 line-clamp-2 ${isLongTitle ? 'text-base' : 'text-xl'}`}>
+           <h3 className={`font-semibold text-white mb-1 line-clamp-1 z-10 tracking-tight ${isLongTitle ? 'text-sm' : 'text-base'}`}>
              {displayName}
            </h3>
-           <p className="text-slate-400 text-xs mb-4 font-medium px-4 opacity-70">Click to open full overview</p>
+           <p className="text-gray-400 text-xs mb-5 font-medium px-4 opacity-60 z-10">Click to open full overview</p>
            
-           <div className="flex flex-wrap justify-center gap-2 mt-auto w-full">
-              {tool.websiteUrl && <span className="flex-1 py-1.5 bg-blue-500 hover:bg-blue-600 border border-blue-400 text-white rounded-md text-xs font-semibold transition-colors">Website</span>}
-              {tool.githubUrl && <span className="flex-1 py-1.5 bg-white/10 hover:bg-white/20 border border-white/20 text-white rounded-md text-xs font-semibold transition-colors">GitHub</span>}
+           <div className="flex justify-center gap-3 mt-auto w-full z-10 px-2">
+              {tool.websiteUrl && <span className="flex-1 py-1.5 bg-white text-black rounded-lg text-xs font-bold transition-transform hover:scale-105 shadow-md">Website</span>}
+              {tool.githubUrl && <span className="flex-1 py-1.5 bg-white/[0.1] border border-white/[0.1] text-white rounded-lg text-xs font-bold transition-transform hover:scale-105 shadow-md">GitHub</span>}
            </div>
         </div>
 
@@ -253,52 +253,55 @@ export default function Home() {
 
       {/* Interactive Detail Modal */}
       {selectedTool && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-gray-900/60 dark:bg-black/80 backdrop-blur-sm" onClick={() => setSelectedTool(null)}>
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-gray-900/60 dark:bg-black/80 backdrop-blur-md transition-all" onClick={() => setSelectedTool(null)}>
           <div 
-            className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto flex flex-col border border-gray-200 dark:border-gray-800"
+            className="bg-white dark:bg-[#0F0F0F] rounded-3xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto flex flex-col border border-gray-200 dark:border-white/[0.05]"
             onClick={(e) => e.stopPropagation()} 
           >
-            <div className="p-8 border-b border-gray-100 dark:border-gray-800 relative">
+            <div className="p-10 border-b border-gray-100 dark:border-white/[0.02] relative bg-gray-50/50 dark:bg-white/[0.01]">
               <button 
                 onClick={() => setSelectedTool(null)}
-                className="absolute top-6 right-6 p-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full text-gray-500 dark:text-gray-400 transition-colors"
+                className="absolute top-6 right-6 p-2.5 bg-white dark:bg-white/[0.05] hover:bg-gray-100 dark:hover:bg-white/[0.1] border border-gray-200/50 dark:border-white/[0.05] rounded-full text-gray-500 dark:text-gray-400 transition-colors shadow-sm"
               >
                 ✕
               </button>
               
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 border border-purple-200 dark:border-purple-800/50 mb-4">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-gray-200/50 dark:bg-white/[0.05] text-gray-700 dark:text-gray-300 border border-gray-300/50 dark:border-white/[0.05] mb-6">
                 {selectedTool.category}
               </span>
               
-              <div className="flex items-start gap-4 mb-2">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-6 mb-2">
                 {selectedTool.icon ? (
                   /* eslint-disable-next-line @next/next/no-img-element */
-                  <img src={selectedTool.icon} alt="favicon" className="w-14 h-14 rounded-xl bg-white border border-gray-100 dark:border-gray-700 object-contain p-1 shrink-0 shadow-sm" />
+                  <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${selectedTool.icon}`} alt="favicon" className="w-20 h-20 rounded-2xl bg-white dark:bg-white/5 border border-gray-200/50 dark:border-white/[0.1] object-contain p-2 shrink-0 shadow-sm" />
                 ) : (
-                  <div className="w-14 h-14 rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center text-gray-500 dark:text-gray-400 font-bold text-xl uppercase shrink-0">
+                  <div className="w-20 h-20 rounded-2xl bg-gray-100 dark:bg-white/[0.05] border border-gray-200/50 dark:border-white/[0.1] flex items-center justify-center text-gray-500 dark:text-gray-400 font-bold text-3xl uppercase shrink-0 shadow-sm">
                     {cleanTitle(selectedTool.title).substring(0, 1)}
                   </div>
                 )}
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white leading-tight">
-                  {cleanTitle(selectedTool.title)}
-                </h2>
+                <div>
+                  <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 dark:text-white leading-tight mb-2">
+                    {cleanTitle(selectedTool.title)}
+                  </h2>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm font-medium">Curated resource from your master directory</p>
+                </div>
               </div>
             </div>
             
-            <div className="p-8 flex-1 bg-white dark:bg-gray-900">
-              <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-300 uppercase tracking-wider mb-3">About this tool</h4>
+            <div className="p-10 flex-1 bg-white dark:bg-transparent">
+              <h4 className="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-4">About this tool</h4>
               <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed whitespace-pre-wrap">
                 {selectedTool.description}
               </p>
             </div>
             
-            <div className="p-8 bg-gray-50 dark:bg-gray-950 border-t border-gray-100 dark:border-gray-800 flex flex-col sm:flex-row gap-4">
+            <div className="p-8 sm:p-10 bg-gray-50 dark:bg-white/[0.01] border-t border-gray-100 dark:border-white/[0.02] flex flex-col sm:flex-row gap-4">
               {selectedTool.websiteUrl && (
                 <a 
                   href={selectedTool.websiteUrl} 
                   target="_blank" 
                   rel="noreferrer" 
-                  className="flex-1 flex justify-center items-center py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white text-base font-semibold rounded-xl transition-all shadow-sm hover:shadow-md"
+                  className="flex-1 flex justify-center items-center py-4 px-6 bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold tracking-wide rounded-xl transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
                 >
                   Visit Official Website
                 </a>
@@ -308,7 +311,7 @@ export default function Home() {
                   href={selectedTool.githubUrl} 
                   target="_blank" 
                   rel="noreferrer" 
-                  className="flex-1 flex justify-center items-center py-3 px-6 bg-gray-900 dark:bg-white hover:bg-black dark:hover:bg-gray-200 text-white dark:text-gray-900 text-base font-semibold rounded-xl transition-all shadow-sm hover:shadow-md"
+                  className="flex-1 flex justify-center items-center py-4 px-6 bg-gray-900 dark:bg-white hover:bg-black dark:hover:bg-gray-200 text-white dark:text-black text-sm font-bold tracking-wide rounded-xl transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
                 >
                   View on GitHub
                 </a>

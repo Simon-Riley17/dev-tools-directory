@@ -1210,29 +1210,6 @@
     ]
   },
   {
-    "category": "Books",
-    "tools": [
-      {
-        "id": "0l7van",
-        "category": "Books",
-        "title": "44 Books &lt;&gt; Tharun Speaks 2.0 - Google Drive",
-        "description": "No description provided.",
-        "githubUrl": null,
-        "websiteUrl": "https://docs.google.com/spreadsheets/u/0/d/1n4T8uuhTpCpaDuRlieEV6t040ksIz6YJCl8u5I1Fxjg/htmlview?pli=1",
-        "icon": "/icons/docs.google.com.png"
-      },
-      {
-        "id": "kksorm",
-        "category": "Books",
-        "title": "Books website",
-        "description": "No description provided.",
-        "githubUrl": null,
-        "websiteUrl": "http://gutenberg.org",
-        "icon": "/icons/pdfdrive.com.png"
-      }
-    ]
-  },
-  {
     "category": "Codebase Understanding",
     "tools": [
       {
