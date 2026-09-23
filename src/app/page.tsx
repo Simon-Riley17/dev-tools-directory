@@ -196,26 +196,45 @@ export default function Home() {
       <main className="flex-1 flex flex-col overflow-hidden relative">
         
         {/* HEADER */}
-        <header className="bg-white/50 dark:bg-white/[0.02] backdrop-blur-xl border-b border-gray-200/50 dark:border-white/[0.05] px-8 py-4 flex items-center justify-between z-20 sticky top-0 transition-colors duration-300">
+        <header className="bg-white/50 dark:bg-white/[0.02] backdrop-blur-xl border-b border-gray-200/50 dark:border-white/[0.05] px-4 sm:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 z-20 sticky top-0 transition-colors duration-300">
           <div className="relative w-full max-w-xl group">
             <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 group-focus-within:text-blue-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
             <input 
               type="text" 
-              placeholder="Search tools, platforms, frameworks..." 
+              placeholder="Search tools, platforms..." 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-10 pr-4 py-2 bg-gray-100/50 dark:bg-black/50 border border-gray-200/50 dark:border-white/[0.1] rounded-xl text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 dark:focus:ring-blue-400/50 transition-all shadow-inner"
             />
           </div>
-          <div className="flex space-x-2 ml-4">
-            <button onClick={() => setFilterType('all')} className={`px-4 py-2 text-xs font-semibold tracking-wide rounded-lg border transition-all ${filterType === 'all' ? 'bg-black dark:bg-white text-white dark:text-black border-transparent shadow-md' : 'bg-transparent text-gray-500 dark:text-gray-400 border-gray-200 dark:border-white/[0.1] hover:bg-gray-100 dark:hover:bg-white/[0.05]'}`}>All</button>
-            <button onClick={() => setFilterType('github')} className={`px-4 py-2 text-xs font-semibold tracking-wide rounded-lg border transition-all ${filterType === 'github' ? 'bg-black dark:bg-white text-white dark:text-black border-transparent shadow-md' : 'bg-transparent text-gray-500 dark:text-gray-400 border-gray-200 dark:border-white/[0.1] hover:bg-gray-100 dark:hover:bg-white/[0.05]'}`}>GitHub</button>
-            <button onClick={() => setFilterType('website')} className={`px-4 py-2 text-xs font-semibold tracking-wide rounded-lg border transition-all ${filterType === 'website' ? 'bg-black dark:bg-white text-white dark:text-black border-transparent shadow-md' : 'bg-transparent text-gray-500 dark:text-gray-400 border-gray-200 dark:border-white/[0.1] hover:bg-gray-100 dark:hover:bg-white/[0.05]'}`}>Website</button>
+          <div className="flex space-x-2 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0 hide-scrollbar">
+            <button onClick={() => setFilterType('all')} className={`shrink-0 px-4 py-2 text-xs font-semibold tracking-wide rounded-lg border transition-all ${filterType === 'all' ? 'bg-black dark:bg-white text-white dark:text-black border-transparent shadow-md' : 'bg-transparent text-gray-500 dark:text-gray-400 border-gray-200 dark:border-white/[0.1] hover:bg-gray-100 dark:hover:bg-white/[0.05]'}`}>All</button>
+            <button onClick={() => setFilterType('github')} className={`shrink-0 px-4 py-2 text-xs font-semibold tracking-wide rounded-lg border transition-all ${filterType === 'github' ? 'bg-black dark:bg-white text-white dark:text-black border-transparent shadow-md' : 'bg-transparent text-gray-500 dark:text-gray-400 border-gray-200 dark:border-white/[0.1] hover:bg-gray-100 dark:hover:bg-white/[0.05]'}`}>GitHub</button>
+            <button onClick={() => setFilterType('website')} className={`shrink-0 px-4 py-2 text-xs font-semibold tracking-wide rounded-lg border transition-all ${filterType === 'website' ? 'bg-black dark:bg-white text-white dark:text-black border-transparent shadow-md' : 'bg-transparent text-gray-500 dark:text-gray-400 border-gray-200 dark:border-white/[0.1] hover:bg-gray-100 dark:hover:bg-white/[0.05]'}`}>Website</button>
           </div>
         </header>
 
+        {/* MOBILE CATEGORY SELECTOR */}
+        <div className="md:hidden bg-white/50 dark:bg-white/[0.01] border-b border-gray-200/50 dark:border-white/[0.05] z-10 backdrop-blur-xl">
+          <div className="flex overflow-x-auto p-3 space-x-2 hide-scrollbar">
+            {categories.map((cat) => (
+              <button 
+                key={cat}
+                onClick={() => setSelectedCategory(cat)}
+                className={`shrink-0 px-4 py-1.5 rounded-full text-xs transition-all duration-200 ${
+                  selectedCategory === cat 
+                    ? 'bg-black text-white dark:bg-white dark:text-black font-semibold shadow-md' 
+                    : 'bg-gray-100 dark:bg-white/[0.05] text-gray-600 dark:text-gray-400 border border-gray-200/50 dark:border-white/[0.05]'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* GRID CONTAINER */}
-        <div className="flex-1 overflow-y-auto p-8 relative">
+        <div className="flex-1 overflow-y-auto p-4 sm:p-8 relative">
           
           {/* Subtle Background Gradients */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
@@ -224,7 +243,7 @@ export default function Home() {
           </div>
 
           {selectedCategory === 'All' && !searchQuery && (
-            <div className="py-16 pb-24 w-full flex justify-center items-center">
+            <div className="py-8 sm:py-16 pb-12 sm:pb-24 w-full flex justify-center items-center">
                <MorphText 
                  words={['WELCOME', 'TO', 'DEV DIRECTORY']} 
                  subtext="Perfectly curated resources for modern developers"
@@ -255,10 +274,10 @@ export default function Home() {
       {selectedTool && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-gray-900/60 dark:bg-black/80 backdrop-blur-md transition-all" onClick={() => setSelectedTool(null)}>
           <div 
-            className="bg-white dark:bg-[#0F0F0F] rounded-3xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto flex flex-col border border-gray-200 dark:border-white/[0.05]"
+            className="bg-white dark:bg-[#0F0F0F] rounded-2xl sm:rounded-3xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto flex flex-col border border-gray-200 dark:border-white/[0.05]"
             onClick={(e) => e.stopPropagation()} 
           >
-            <div className="p-10 border-b border-gray-100 dark:border-white/[0.02] relative bg-gray-50/50 dark:bg-white/[0.01]">
+            <div className="p-6 sm:p-10 border-b border-gray-100 dark:border-white/[0.02] relative bg-gray-50/50 dark:bg-white/[0.01]">
               <button 
                 onClick={() => setSelectedTool(null)}
                 className="absolute top-6 right-6 p-2.5 bg-white dark:bg-white/[0.05] hover:bg-gray-100 dark:hover:bg-white/[0.1] border border-gray-200/50 dark:border-white/[0.05] rounded-full text-gray-500 dark:text-gray-400 transition-colors shadow-sm"
@@ -288,14 +307,14 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="p-10 flex-1 bg-white dark:bg-transparent">
+            <div className="p-6 sm:p-10 flex-1 bg-white dark:bg-transparent">
               <h4 className="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-4">About this tool</h4>
               <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed whitespace-pre-wrap">
                 {selectedTool.description}
               </p>
             </div>
             
-            <div className="p-8 sm:p-10 bg-gray-50 dark:bg-white/[0.01] border-t border-gray-100 dark:border-white/[0.02] flex flex-col sm:flex-row gap-4">
+            <div className="p-6 sm:p-10 bg-gray-50 dark:bg-white/[0.01] border-t border-gray-100 dark:border-white/[0.02] flex flex-col sm:flex-row gap-4">
               {selectedTool.websiteUrl && (
                 <a 
                   href={selectedTool.websiteUrl} 
