@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://simon-riley17.github.io"),
   title: "Dev Directory | Curated Stack",
   description: "A comprehensive, beautifully designed directory of nearly 600 AI models, developer APIs, codebase understanding tools, and tech platforms.",
   openGraph: {
