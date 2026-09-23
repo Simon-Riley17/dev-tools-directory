@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dev Directory | Curated Stack",
-  description: "A premium, highly-curated directory of 360+ modern developer tools, AI platforms, and frameworks.",
+  description: "A comprehensive, beautifully designed directory of nearly 600 AI models, developer APIs, codebase understanding tools, and tech platforms.",
 };
 
 export default function RootLayout({
