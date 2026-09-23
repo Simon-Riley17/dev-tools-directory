@@ -1,0 +1,327 @@
+# Dev Directory
+
+> A comprehensive, highly-curated directory of nearly 600 AI models, developer APIs, codebase understanding tools, and tech platforms.
+
+This directory categorizes and indexes modern developer and AI resources. 
+You can visit the live directory at: https://simon-riley17.github.io/dev-tools-directory/
+
+## Directory Structure
+
+The directory is split into the following categories:
+
+### API
+- [Bytez - open source AI](https://bytez.com/api/pricing) - Keep up with AI. Discover, demo, and deploy open source models
+- [Chutes | Serverless AI Compute](https://chutes.ai/) - Deploy, run and scale any AI model in seconds. Try directly through our platform, or use our easy-to-use API in seconds.
+- [FreeAPI - Open Source API Hub | Chaicode](https://freeapi.app/) - Master API integration with free, open-source APIs. Build real portfolio projects with authentication, e-commerce, social media, and 50+ endpoints.
+- [GitHub - decolua/9router: Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never h](https://github.com/decolua/9router) - Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. - decolua/9router
+- [GitHub - tashfeenahmed/freellmapi: 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing](https://github.com/tashfeenahmed/freellmapi) - 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only. - tashfeenahmed/freellmapi
+- ... and 7 more tools.
+
+### Ai
+- [Artflo | AI Workflow That Thinks with You](https://artflo.ai) - Flow your ideas with Artflo, the all-in-one AI workflow platform for designers. Explore infinite canvas, collaborate with AI Skills, and create without limits.
+- [GitHub - Shubhamsaboo/awesome-llm-apps: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source. · GitHub](https://github.com/Shubhamsaboo/awesome-llm-apps) - 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source. - Shubhamsaboo/awesome-llm-apps
+- [Curvet — The Unified AI Interface | Every Model, One Workspace](https://curvet.ai/) - Curvet is the unified AI interface — one place to chat, compare, build and ship across every major model. Run prompts side by side, wire up agents and workflows, connect your own tools over MCP, and pay only for what you use.
+- [Draftly 3D Website Builder | No-Code Immersive Website Creation](https://www.draftly.space/) - Create stunning 3D immersive websites in minutes with AI, no coding required. Simply enter a prompt and launch your site instantly. Plans from $25/mo.
+- [Dyad – Free, Local, Open-Source AI App Builder](https://www.dyad.sh/) - Build full-stack AI apps on your desktop with Dyad, the free, local, open-source AI app builder. Use any AI model, own your code. Zero lock-in.
+- ... and 17 more tools.
+
+### Ai Agents
+- [GitHub - ashishpatel26/500-AI-Agents-Projects: The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides link](https://github.com/ashishpatel26/500-AI-Agents-Projects) - The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more. - ashishpatel26/500-AI-Agents-Projects
+- [Agent Zero AI: Open Source Agentic Framework &amp; Computer Assistant](https://www.agent-zero.ai/) - Easily build your own AI agents that work on their own operating system, create tools intelligently, learn, self-correct, and execute workflows with complete transparency.
+- [Aside | The browser built to do real work for you](https://aside.com/) - A browser that gets complex work done across your websites, accounts, and history.
+- [Atomic agent](https://atomicagent.io/) - No description provided.
+- [AutoClaw - Z.ai’s Official AI Agent | GLM-5.3-Flash Now Live](https://autoglm.zhipuai.cn/autoclaw/) - AutoClaw is an out-of-the-box AI assistant with GLM-5.3-Flash now live and 50+ built-in skills for documents, data analysis, browser automation, and IM workflows.
+- ... and 30 more tools.
+
+### Ai Images
+- [Recently Updated Generators](https://perchance.org/generators) - No description provided.
+- [BasedLabs.ai - AI Image &amp; Video Generator](https://www.basedlabs.ai/) - Create AI images, videos, and face swaps with 50+ powerful AI models. Trusted by thousands of creators. Sign up free to start.
+- [Free AI Image Generator - Bing Image Creator](https://www.bing.com/images/create/ai-image-generator) - Create stunning images with Bing Image Creator, the best free AI image generator. Turn text into AI art, photos, and visuals instantly, all for free.
+- [GitHub - PrismML-Eng/Bonsai-Image-Demo: Generate images locally · GitHub](https://github.com/PrismML-Eng/Bonsai-Image-Demo) - Generate images locally. Contribute to PrismML-Eng/Bonsai-Image-Demo development by creating an account on GitHub.
+- [DeepAI](https://deepai.org/) - Artificially intelligent tools for naturally creative humans.
+- ... and 7 more tools.
+
+### Ai Platforms
+- [AnythingLLM — On-device AI for productivity | Local &amp; Private](https://anythingllm.com/) - A free, private AI assistant that runs on your device. No accounts, no API keys, no token limits.
+- [Freebuff — the free coding agent (free Claude Code, Codex, Cursor &amp; Lovable alternative)](https://freebuff.com/) - Freebuff is the free coding agent: a free CLI coding agent and Freebuff Web, the free way to build full-stack apps. No subscription, no setup, no lock-in. The free alternative to Claude Code, Cursor, Codex, Lovable, Replit, Bolt, Windsurf, and Devin.
+- [goose | Your open source AI agent](https://goose-docs.ai/) - Your native open source AI agent. Desktop app, CLI, and API — for code, workflows, and everything in between.
+- [LM Studio Bionic - Agent for Work and Code](https://lmstudio.ai/) - Bionic is LM Studio&#x27;s agent for work and code. Create documents, slides, PDFs, and software with local or frontier open models.
+- [GitHub - XiaomiMiMo/MiMo-Code: MiMo Code: Where Models and Agents Co-Evolve · GitHub](https://mimo.xiaomi.com/mimocode) - MiMo Code: Where Models and Agents Co-Evolve. Contribute to XiaomiMiMo/MiMo-Code development by creating an account on GitHub.
+- ... and 9 more tools.
+
+### Ai Videos
+- [BasedLabs.ai - AI Image &amp; Video Generator](https://www.basedlabs.ai/) - Create AI images, videos, and face swaps with 50+ powerful AI models. Trusted by thousands of creators. Sign up free to start.
+- [Free AI Image Generator - Bing Image Creator](https://www.bing.com/images/create/ai-image-generator) - Create stunning images with Bing Image Creator, the best free AI image generator. Turn text into AI art, photos, and visuals instantly, all for free.
+- [Digen AI - Free AI Video Generator](https://digen.ai/en/explore) - Create professional videos instantly with DigenAI&#x27;s free AI video generator. Convert images to engaging videos with realistic voice synchronization, multilingual support, and smart motion technology. No technical skills required - start creating today!
+- [GitHub - dramaclaw/dramaclaw: A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、](https://github.com/dramaclaw/dramaclaw) - A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可 - dramaclaw/dramaclaw
+- [FakeYou Celebrity AI Voice and Video Generator](https://fakeyou.com/) - FakeYou Celebrity AI Voice and AI Video Generator
+- ... and 14 more tools.
+
+### Ai hackers
+- [GitHub - Netw0rkNoob/VulnClaw: 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。 · GitHub](https://github.com/Unclecheng-li/VulnClaw) - 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。 - Netw0rkNoob/VulnClaw
+- [GitHub - vxcontrol/pentagi: Fully autonomous AI Agents system capable of performing complex penetration testing tasks · GitHub](https://pentagi.com/) - Fully autonomous AI Agents system capable of performing complex penetration testing tasks - vxcontrol/pentagi
+- [GitHub - usestrix/strix: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. · GitHub](https://www.strix.ai/) - Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. - usestrix/strix
+
+### Ai voice
+- [GitHub - fspecii/ace-step-ui: 🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno! · GitHub](https://github.com/fspecii/ace-step-ui) - 🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno! - fspecii/ace-step-ui
+- [GitHub - resemble-ai/chatterbox: SoTA open-source TTS · GitHub](https://github.com/resemble-ai/chatterbox) - SoTA open-source TTS. Contribute to resemble-ai/chatterbox development by creating an account on GitHub.
+- [FakeYou Celebrity AI Voice and Video Generator](https://fakeyou.com/) - FakeYou Celebrity AI Voice and AI Video Generator
+- [GitHub - fishaudio/fish-speech: SOTA Open Source TTS · GitHub](https://speech.fish.audio/) - SOTA Open Source TTS. Contribute to fishaudio/fish-speech development by creating an account on GitHub.
+- [GitHub - debpalash/VoiceStudio: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 64](https://github.com/debpalash/OmniVoice-Studio) - VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages. - debpalash/VoiceStudio
+- ... and 8 more tools.
+
+### Codebase Understanding
+- [GitHub - colbymchenry/codegraph: Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer to](https://github.com/colbymchenry/codegraph) - Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local - colbymchenry/codegraph
+- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) - No description provided.
+
+### Comics
+- [Read Free Comics Online in PDF - Thousands of Comic Books | YSK Comics](https://www.ysk-comics.com/en) - No description provided.
+- [AI Comic Factory - a Hugging Face Space by jbilcke-hf](https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory) - Enter a short text description of a scene, characters, or dialogue, and the app will create a comic‑style illustration for you. It turns your words into a ready‑to‑use comic panel you can view, sha...
+
+### Control Devices
+- [KDE Connect](https://kdeconnect.kde.org/) - No description provided.
+- [GitHub - plainhub/plain-app: 🔥 PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to](https://github.com/plainhub/plain-app) - 🔥 PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to-use interface on your desktop. - plainhub/plain-app
+- [GitHub - shrimqy/Sefirah: Phone Link / KDE Connect alternative · GitHub](https://github.com/shrimqy/Sefirah) - Phone Link / KDE Connect alternative. Contribute to shrimqy/Sefirah development by creating an account on GitHub.
+- [spacedesk by datronicsoft](https://www.spacedesk.net/) - No description provided.
+- [GitHub - andyholmes/valent: Connect, control and sync devices · GitHub](https://github.com/andyholmes/valent) - Connect, control and sync devices. Contribute to andyholmes/valent development by creating an account on GitHub.
+- ... and 2 more tools.
+
+### Datasets
+- [AIKosh Home](https://aikosh.indiaai.gov.in/home) - This is home page.
+- [GitHub - awesomedata/awesome-public-datasets: A topic-centric list of HQ open datasets. · GitHub](https://awesomedataworld.slack.com/) - A topic-centric list of HQ open datasets. Contribute to awesomedata/awesome-public-datasets development by creating an account on GitHub.
+- [Data For India](https://www.dataforindia.com/) - Insights, charts and data to create shared knowledge and expand our understanding of India
+
+### Design Inspiration & Extractor
+- [GitHub - JCodesMore/ai-website-cloner-template: Clone any website with one command using AI coding agents · GitHub](https://github.com/JCodesMore/ai-website-cloner-template) - Clone any website with one command using AI coding agents - JCodesMore/ai-website-cloner-template
+- [Context.dev: Web Scraping API for AI Agents &amp; LLMs](https://www.context.dev/) - Context.dev is a web scraping API for AI agents: scrape any URL into LLM-ready Markdown, crawl entire sites, and extract structured data with one REST API.
+- [Get a DESIGN.md From Any Website URL | Design Extractor](https://www.design-extractor.com/) - Paste any URL to get a DESIGN.md from any website. Extract its colors, typography, spacing, and components for Claude, Cursor, and Stitch.
+- [designlang — Open-source design extractor (design-extractor.com alternative). Tokens, Tailwind, Figma, MCP, iOS, Android, Flutter, WordPress.](https://designlang.manavaryasingh.com/) - designlang is the open-source design extractor that turns any URL into a complete design system in seconds. A free, MIT-licensed alternative to design-extractor.com — same DESIGN.md output, no signup, scriptable CLI, plus W3C DTCG tokens (primitive · semantic · composite), Tailwind config, CSS variables, Figma variables, shadcn/ui theme, React / Vue / Svelte themes, iOS SwiftUI, Android Jetpack Compose, Flutter, WordPress block themes, and a print-ready brand-book PDF. Ships a stdio MCP server f
+- [Design Prompts - AI-Powered Design Style Explorer](https://www.designprompts.dev/) - Explore 31+ stunning design styles rendered from the same data. Get AI-ready prompts to recreate any aesthetic in your own projects.
+- ... and 6 more tools.
+
+### Designing
+- [Aceternity UI — React &amp; Tailwind CSS Component Library](https://ui.aceternity.com/) - Aceternity UI is a React component library with 200+ copy-paste components, blocks, and landing page templates built with Tailwind CSS and Motion.
+- [GitHub - Subhan-code/Amicro--Micro-transitions- · GitHub](https://amicro.vercel.app/) - Contribute to Subhan-code/Amicro--Micro-transitions- development by creating an account on GitHub.
+- [GitHub - imskyleen/animate-ui: Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modif](https://animate-ui.com/) - Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects. - imskyleen/animate-ui
+- [Anime.js | JavaScript Animation Engine](https://animejs.com/) - A fast, multipurpose and lightweight JavaScript animation library
+- [GitHub - VoltAgent/awesome-design-md: A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. · GitHub](https://github.com/voltagent/awesome-design-md) - A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. - VoltAgent/awesome-design-md
+- ... and 34 more tools.
+
+### Developers Tools
+- [Checklist Design](https://www.checklist.design/) - Design checklists for websites, web apps, mobile, components, and flows. Check every detail, ship better work.
+- [GitHub - coollabsio/coolify: An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-cl](https://coolify.io/) - An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers. - coollabsio/coolify
+- [Escrcpy](https://viarotel.eu.org/) - Control your Android device with graphical scrcpy.
+- [Agentic Infrastructure - Vercel](https://www.backblaze.com/b2) - The autonomous stack for every app and agent.
+- [Free for Developers](https://free-for.dev/#/) - Developers and Open Source authors now have a massive amount of services offering free tiers, but it can be hard to find them all to make informed decisions.
+- ... and 10 more tools.
+
+### Downloader
+- [GitHub - XiaoYouChR/Ghost-Downloader-3: The only downloader you need. 下载器的集大成者。 · GitHub](https://gd.xychr.com/en/) - The only downloader you need. 下载器的集大成者。. Contribute to XiaoYouChR/Ghost-Downloader-3 development by creating an account on GitHub.
+- [GitHub - baairon/torlink: 👾 A sleek, zero-setup torrent finder and downloader that lives right in your terminal. · GitHub](https://github.com/baairon/torlink) - 👾 A sleek, zero-setup torrent finder and downloader that lives right in your terminal. - baairon/torlink
+- [GitHub - AhmadIbrahiim/Website-downloader: 💡 Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ] using Node.js · GitHub](https://github.com/Ahmadibrahiim/Website-downloader) - 💡 Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ] using Node.js - GitHub - AhmadIbrahiim/Website-downloader: 💡 Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ] using Node.js
+- [croc — fast, simple, secure file transfer](https://getcroc.com/) - Fast, simple, and secure file transfer between any two computers. Send and receive end-to-end encrypted files with croc from your browser.
+- [ghgrab — Download Specific Files or Folders from GitHub](https://github.com/user/repo/tree/main/folder-name) - No description provided.
+
+### Downloading Resources
+- [Deep Web Nest](https://deepwebnest.com/) - No description provided.
+- [Epic Games Free Games](https://store.epicgames.com/free-games?lang=en-US) - No description provided.
+- [Title: Just a moment...](https://gg.deals/news/freebies/) - URL Source: https://gg.deals/news/freebies/ Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content:
+- [Latest Free Game Keys, Codes &amp; Giveaways - GamerPower](https://www.gamerpower.com/) - Find the latest free game keys, Steam keys &amp; gaming giveaways. From free games to promo codes for your favorite titles. GamerPower connects gamers to legitimate giveaways. Updated daily
+- [IsThereAnyDeal](https://isthereanydeal.com/) - No description provided.
+- ... and 3 more tools.
+
+### Find Open Source alternatives
+- [Title: Just a moment...](https://alternativeto.net/) - URL Source: https://alternativeto.net/ Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout.
+- [MR Free Tools](https://mrfreetools.com/tools/) - No description provided.
+- [NoSignups - Open Source Tools. Zero Bullsh*t.](https://nosignups.net/) - NoSignups (formerly FckSignups) is an open-source directory of no-signup, in-browser, open-source tools.
+- [Open Source Alternatives to Popular Software](https://openalternative.co/) - A curated collection of the best open source alternatives to everyday SaaS products. Save money with reliable tools hand-picked for you.
+- [Browse All Open Source Applications &amp; Tools | Open Apps](https://openapps.pro/apps) - Explore our complete collection of curated open-source applications. Find free, self-hostable alternatives to expensive SaaS tools.
+- ... and 1 more tools.
+
+### For students
+- [✔️ PYQ Online: India's Leading Destination for Previous Year Question Papers pyqonline.com](https://www.gujaratboardonline.com/) - Discover a vast repository of previous year question papers, notes, syllabus, and answers at PYQOnline, India
+- [Browse All Perks | Startup Perks Database](https://www.startupperks.xyz/perks) - Search and filter through 40+ startup perks, credits, and programs. Find cloud credits, AI API access, developer tools, and more.
+- [Startups.RIP - Dead YC Startups, Alive Ideas](https://startups.rip/) - Research reports, rebuild plans, and technical specs for 1,700+ YC startups. Navigate the idea maze with lessons from the companies that came before you.
+- [TrustMRR - Buy and Sell SaaS Startups](https://trustmrr.com/) - Buy and sell SaaS, apps, and digital businesses on TrustMRR, the startup marketplace with verified revenue, MRR, growth, and acquisition metrics.
+
+### Free domain
+- [DigitalPlat : Free domain](https://domain.digitalplat.org/) - No description provided.
+- [Portal Home - iFreeDomains - Get a Free Domain Name | Free Cloud 25GB Hosting No Ads](https://ifreedomains.com/) - iFreeDomains , get a free domain name free domain name registration free domain name search free domain name generator free domain name reddit free domain name hosting free domain name appraisal free domain name email free domain name for students free domain name and hosting free domain name aws free domain name and registration free domain name and website builder free domain name auction get a free domain name get a free domain name forever create a free domain name register a free domain nam
+- [Free Website Hosting - InfinityFree](https://www.infinityfree.com/) - Completely free website hosting with PHP, MySQL and no ads on your site!
+
+### Get Every Tech News
+- [DevURLs – A neat developer news aggregator](https://devurls.com/) - Read programming news from the most popular programming websites in one place.
+- [Hacker News](https://news.ycombinator.com/) - No description provided.
+- [Hacker News Search powered by Algolia](https://hn.algolia.com/) - width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,minimal-ui" name="viewport"><title>Hacker News Search powered by Algolia</title><meta content=
+- [Lobsters](https://lobste.rs/) - A computing-focused community centered around link aggregation and discussion.
+
+### GitHub Repository
+- [GitHub - microsoft/TRELLIS.2: Native and Compact Structured Latents for 3D Generation · GitHub](https://huggingface.co/spaces/microsoft/TRELLIS.2) - Native and Compact Structured Latents for 3D Generation - microsoft/TRELLIS.2
+- [GitHub - Panniantong/Agent-Reach: Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. · GitHub](https://github.com/Panniantong/agent-reach) - Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. - Panniantong/Agent-Reach
+- [GitHub - simular-ai/Agent-S: Agent S: an open agentic framework that uses computers like a human · GitHub](https://github.com/simular-ai/agent-s) - Agent S: an open agentic framework that uses computers like a human - simular-ai/Agent-S
+- [GitHub - lyogavin/airllm: AirLLM 70B inference with single 4GB GPU · GitHub](https://github.com/lyogavin/airllm) - AirLLM 70B inference with single 4GB GPU. Contribute to lyogavin/airllm development by creating an account on GitHub.
+- [GitHub - lfnovo/open-notebook: An Open Source implementation of Notebook LM with more flexibility and features · GitHub](https://github.com/lfnovo/open-notebook) - An Open Source implementation of Notebook LM with more flexibility and features - lfnovo/open-notebook
+- ... and 65 more tools.
+
+### Google
+- [Google Flow - AI Creative Studio for Video, Images &amp; Custom Tools](https://labs.google/fx/tools/flow) - Try Google Flow, the ultimate AI for creatives. Transform ideas into reality using Google’s advanced generative models for cinematic video, images, &amp; tools.
+- [Google Flow Music](https://www.flowmusic.app/) - Google Flow Music is a generative AI platform for creating, remixing, and sharing studio-quality songs. Direct music videos, vibe-code new instruments, and personalize your sound effortlessly.
+- [Google labs](https://labs.google/) - No description provided.
+- [Learn Your Way](https://learnyourway.withgoogle.com/) - No description provided.
+- [NotebookLM](https://notebook.google.com/) - No description provided.
+- ... and 2 more tools.
+
+### Goverment
+- [Mumbai Port](https://eauction.gov.in/eauction/) - Mumbai Port
+- [Government e Marketplace | National Public Procurement Portal](https://gem.gov.in/) - Government e Marketplace (GeM) is a digital platform for procurement of goods & services by Central / State Ministries / Departments, PSUs, Panchayats & Cooperatives.
+
+### Icon
+- [3dsvg — The easiest way to turn SVGs into 3D](https://3dsvg.design/) - Turn any SVG into interactive 3D objects. Animate and export as 4K image or video. 100% free, no account or subscription needed.
+- [Its Hover](https://www.itshover.com/) - Animated icons that move with intent.
+- [3DLogoLab: 2D Logo to 3D Rotating Animation in Seconds](https://www.3dlogolab.io/) - Turn your 2D logo into a 3D animation in seconds. Add chrome effects, spin it 360°, and export as a video or 3D model - no design skills needed.
+
+### Image tools
+- [Create beautiful images of your code](https://ray.so/) - Turn your code into beautiful images. Choose from a range of syntax colors, hide or show the background, and toggle between a dark and light window.
+- [Fake Text Message Generator | PrankShit](https://prankshit.com/) - Create realistic fake chats, messages and social media screenshots with privacy-first generators updated regularly since 2022.
+- [Cleanup.pictures - Remove objects, people, text and defects from any picture for free](https://cleanup.pictures/) - Remove unwanted objects from photos, people, text, and defects from any picture for free. It
+- [FakeUpdate.net - Windows Update Prank by fediaFedia](https://chat-animate.com/) - Prank your friends and colleagues with fake update screens!
+- [Photopea | Online Photo Editor](https://www.photopea.com/) - Photopea Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures. Do Online Photo Editing in your browser for free!
+- ... and 4 more tools.
+
+### Learning
+- [GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents · GitHub](https://github.com/microsoft/ai-agents-for-beginners) - 18 Lessons to Get Started Building AI Agents. Contribute to microsoft/ai-agents-for-beginners development by creating an account on GitHub.
+- [A free online introduction to artificial intelligence for non-experts](https://www.elementsofai.com/) - Learn more about MinnaLearn
+- [Download Free Cheat Sheets or Create Your Own! - Cheatography.com: Cheat Sheets For Every Occasion](https://cheatography.com/) - Find thousands of incredible, original programming cheat sheets, all free to download.
+- [OverAPI.com | Collecting all the cheat sheets](https://overapi.com/) - OverAPI.com is a site collecting all the cheatsheets,all!
+- [Title: Learn to Code Free Online - Python, JS & 15+ | Coddy.Tech](https://coddy.tech/) - URL Source: https://coddy.tech/ Markdown Content: Menu
+- ... and 14 more tools.
+
+### OSINT & Hacking
+- [AIMap : AI Infrastructure Discovery & Security Testing Platform](https://github.com/BishopFox/aimap) - No description provided.
+- [AImap](https://github.com/BishopFox/aimap) - No description provided.
+- [GitHub - hacksider/Deep-Live-Cam: real time face swap and one-click video deepfake with only a single image · GitHub](https://deeplivecam.net/) - real time face swap and one-click video deepfake with only a single image - hacksider/Deep-Live-Cam
+- [Termux Tools – Online Termux Web App - Free Termux tools, Linux commands, and Android terminal utilities for beginners and advanced users.](https://tools.termuxcommands.com/) - Free Termux tools, Linux commands, and Android terminal utilities for beginners and advanced users.
+- [For OSINT](https://github.com/0x0BE/yesitsme) - No description provided.
+- ... and 21 more tools.
+
+### Os Recommended
+- [GitHub - elizaOS/eliza: Open source agentic operating system · GitHub](https://github.com/elizaos/eliza) - Open source agentic operating system. Contribute to elizaOS/eliza development by creating an account on GitHub.
+- [CachyOS — Blazingly Fast OS based on Arch Linux — CachyOS](https://cachyos.org/) - 🚀 CachyOS is a performance-optimized Arch Linux distribution with CPU-specific package builds, advanced kernel scheduling, and an effortless installation — delivering measurable speed gains without sacrificing simplicity.
+- [GitHub - MustardChef/WSABuilds: Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root sol](https://github.com/MustardChef/WSABuilds) - Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in. - GitHub - MustardChef/WSABuilds: Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in.
+- [Waydroid | Android in a Linux container](https://waydro.id/) - Waydroid - Android in a Linux container
+
+### Pdf Tools
+- [Title: Deployment Paused](https://brevio.pro/) - URL Source: https://brevio.pro/ Warning: Target URL returned error 402: Payment Required Markdown Content:
+- [PDF Editor Free - Edit PDF and Form Filler Online - PDFescape](https://www.pdfescape.com/) - Edit PDF documents, fill PDF forms, and view PDFs online using PDFescape, the free PDF reader, PDF editor, and PDF form filler software. Edit or fill out PDF forms in seconds for free without having to use Adobe Acrobat. Try it now!
+- [GitHub - genspark-ai/genoffice: Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code,](https://github.com/genspark-ai/genoffice) - Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows &amp; Linux. - genspark-ai/genoffice
+- [GitHub - PDFCraftTool/pdfcraft: PDFCraft is a free, privacy-focused PDF toolkit that runs entirely in your browser. With 90+ professional tools, you can edit, convert, merge, split, and secure your PD](https://github.com/PDFCraftTool/pdfcraft) - PDFCraft is a free, privacy-focused PDF toolkit that runs entirely in your browser. With 90+ professional tools, you can edit, convert, merge, split, and secure your PDF files without ever uploading them to a server. - PDFCraftTool/pdfcraft
+
+### Prompts
+- [Banana Prompts — AI Image &amp; Video Prompts](https://www.meigen.ai/) - Discover trending AI-generated images and videos, copy the prompts that power them, and share your own creations with the community.
+- [FlowGPT — The open platform for AI applications](https://flowgpt.com/) - Discover prompts and AI apps built by a global community, or publish your own. FlowGPT is an open platform for building and sharing with AI.
+- [pen.dev – Design on canvas. Land in code.](https://www.pen.dev/prompts) - pen.dev fundamentally increases your engineering speed by bringing designing directly into your preferred IDE.
+- [Prompt Cowboy - #1 prompt generator](https://www.promptcowboy.ai/) - Prompt Cowboy helps you transform rough ideas into clear, high-performing prompts for ChatGPT, Claude, and other LLMs in seconds.
+- [GitHub - linshenkx/prompt-optimizer: An AI prompt optimizer for writing better prompts and getting better AI results. · GitHub](https://prompt.always200.com/#/basic/system) - An AI prompt optimizer for writing better prompts and getting better AI results. - linshenkx/prompt-optimizer
+- ... and 4 more tools.
+
+### Reverse engineering android apps
+- [GitHub - vaibhavpandeyvpz/apkstudio: Open-source, cross platform Qt6 based IDE for reverse-engineering Android application packages. It features a friendly IDE-like layout including code editor with s](https://github.com/vaibhavpandeyvpz/apkstudio) - Open-source, cross platform Qt6 based IDE for reverse-engineering Android application packages. It features a friendly IDE-like layout including code editor with syntax highlighting support for *.smali code files. - vaibhavpandeyvpz/apkstudio
+- [Telegram: View @apktool_m](https://telegram.me/apktool_m) - Apktool M – apktool для Android. Сайт[Site]: https://github.com/Maximoff/Apktool-M-updates Группа для обсуждения модификаций[Modification Discussion Group]: https://t.me/apktool_mod Архив версий[Archive of versions]: https://clck.ru/3V2DTH
+- [GitHub - zhaoxuya520/reverse-skill: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving kn](https://github.com/zhaoxuya520/reverse-skill) - Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端 - zhaoxuya520/reverse-skill
+
+### Skills for ai agent
+- [GitHub - Imbad0202/academic-research-skills: Academic Research Skills for Claude Code: research → write → review → revise → finalize · GitHub](https://github.com/imbad0202/academic-research-skills) - Academic Research Skills for Claude Code: research → write → review → revise → finalize - Imbad0202/academic-research-skills
+- [GitHub - multica-ai/andrej-karpathy-skills: A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls. · GitHub](https://github.com/multica-ai/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls. - multica-ai/andrej-karpathy-skills
+- [GitHub - anthropics/skills: Public repository for Agent Skills · GitHub](https://github.com/anthropics/skills) - Public repository for Agent Skills. Contribute to anthropics/skills development by creating an account on GitHub.
+- [GitHub - mukul975/Anthropic-Cybersecurity-Skills: 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MIT](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0 - mukul975/Anthropic-Cybersecurity-Skills
+- [GitHub - basicmachines-co/basic-memory: AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://discord.gg/tyvKNccgqN · GitHub](https://github.com/basicmachines-co/basic-memory) - AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://discord.gg/tyvKNccgqN - basicmachines-co/basic-memory
+- ... and 28 more tools.
+
+### Stock Images , Videos & Audio
+- [20,000+ Free Stock Photos and Royalty-Free Images](https://www.shopify.com/stock-photos) - Browse thousands of beautiful copyright-free images. All our pictures are free to download for personal and commercial use, no attribution required.
+- [FootageCrate | 10,000 VFX Assets | Explosions, Fire, Lightning, Magic, Smoke](https://footagecrate.com/) - Explore our VFX and Motion Graphics to create the ultimate project, compatible with Premiere Pro, After Effects, Davinci and more with Transparent Backgrounds.
+- [Kamboompics : Stock Photos](https://kaboompics.com/) - No description provided.
+- [Magnific : Stock Photos](https://www.magnific.com/) - No description provided.
+- [Mixkit - Awesome free assets for your next video project](https://mixkit.co/) - Download Free Stock Video Footage, Stock Music &amp; Premiere Pro Templates for your next video editing project. All assets can be downloaded for free!
+- ... and 8 more tools.
+
+### Stores
+- [AllSiteHub (allsitehub / allsite) — Discover Best Websites &amp; Search Smarter](https://allsitehub.site/) - AllSiteHub (allsitehub / allsite) is the premier directory to discover verified websites, free software, online tools, and web platforms. Search smarter across allsitehub.site.
+- [Flathub - Apps for Linux | Flathub](https://flathub.org/en) - Find and install hundreds of apps and games for Linux. Enjoy Firefox, Telegram, RetroArch, GIMP and many more!
+- [Kali NetHunter | Kali Linux Documentation](https://www.kali.org/docs/nethunter/) - Kali on your Android phone
+
+### Telegram Finding Tool
+- [Title: Just a moment...](https://directorytg.com/) - URL Source: https://directorytg.com/ Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content:
+- [Groupfind](https://groupfind.org/) - No description provided.
+- [Telegram Directory - Search Telegram Channels, Groups &amp; Bots](https://tdirectory.me/) - World
+- [Telemetr](https://telemetr.io/en) - No description provided.
+- [Tgstat](https://tgstat.ru/en) - No description provided.
+
+### Tips & Tricks
+- [GitHub · Change is constant. GitHub keeps you ahead. · GitHub](https://code2tutorial.com/) - Join the world&#39;s most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.
+
+### Tools
+- [delphitools — digital indie toolkit](https://delphi.tools/) - A collection of small, low stakes and low effort tools. No logins, no registration, no data collection. Everything runs locally in your browser.
+- [GitHub - dubinc/dub: The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more. · GitHub](https://dub.co/) - The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more. - dubinc/dub
+- [Flicker - Spinner Library](https://flicker.laurie.fyi/gallery) - A loading spinner library inspired by flip-dot displays. Browse the collection, build your own, export to SVG, React, or Flutter.
+- [GitHub - papercups-io/papercups: Open-source live customer chat · GitHub](https://github.com/papercups-io/papercups) - Open-source live customer chat. Contribute to papercups-io/papercups development by creating an account on GitHub.
+- [GitHub - techjarves/USB-Uncensored-LLM: The ultimate zero-install, portable local AI environment. Run high-quality, uncensored LLMs (Gemma, Qwen, NemoMix) directly from any USB drive or SSD. Fully air](https://github.com/techjarves/USB-Uncensored-LLM) - The ultimate zero-install, portable local AI environment. Run high-quality, uncensored LLMs (Gemma, Qwen, NemoMix) directly from any USB drive or SSD. Fully air-gapped, cross-platform (Win/Mac/Linux), and privacy-first with persistent chat history. - techjarves/USB-Uncensored-LLM
+- ... and 1 more tools.
+
+### Training LLM
+- [GitHub - hiyouga/LlamaFactory: Unified Efficient Fine-Tuning of 100+ LLMs &amp; VLMs (ACL 2024) · GitHub](https://github.com/hiyouga/LlamaFactory) - Unified Efficient Fine-Tuning of 100+ LLMs &amp; VLMs (ACL 2024) - hiyouga/LlamaFactory
+- [Train LLM From Scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) - No description provided.
+- [GitHub - unslothai/unsloth: Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more. · GitHub](https://github.com/unslothai/unsloth) - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more. - unslothai/unsloth
+
+### Ui
+- [React Components, Templates &amp; Themes — 12,000+ Crafted UI | 21st | 21st](https://21st.dev/) - 12,000+ hand-crafted React and Tailwind CSS components, templates, and shadcn themes by real design engineers. Preview live, install with one command — for you and your AI agent.
+- [🚀 50+ Free UI Libraries Every Developer Should Know](https://docs.google.com/document/u/0/d/1OmHGwG6fYUJAAj_7lmDB9rCjaCTI_WPNnjoeU_ScRkg/mobilebasic) - 🚀 50+ Free UI Libraries Every Developer Should Know ⭐ Top 10 Featured Libraries Magic UI React Bits Kibo UI daisyUI HeroUI Motion Primitives Animate UI Cult UI Preline UI Headless UI 🎨 40+ More UI Libraries 8bitcn UI Base UI (BaseCN) Fancy Components 21st.dev Spectrum UI ReUI Jolly UI FlyonUI...
+- [Retro UI library - 8bitcn/ui](https://www.8bitcn.com/) - A retro UI library of 8-bit styled shadcn/ui components, blocks, and game-ready interfaces for modern React apps.
+- [Aceternity UI — React &amp; Tailwind CSS Component Library](https://ui.aceternity.com/) - Aceternity UI is a React component library with 200+ copy-paste components, blocks, and landing page templates built with Tailwind CSS and Motion.
+- [AlignUI Design System - Design and development perfectly aligned](https://www.alignui.com/) - Design and development perfectly aligned
+- ... and 58 more tools.
+
+### Unlimited Storage
+- [Pentaract](https://github.com/Dominux/Pentaract) - No description provided.
+- [GitHub - caamer20/Telegram-Drive: Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React. · GitHub](https://github.com/caamer20/Telegram-Drive) - Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React. - caamer20/Telegram-Drive
+
+### Useful Websites
+- [Basics | Cheat sheets | Linux Command Library](https://linuxcommandlibrary.com/) - Handy cheat sheets with linux tips and terminal basics about System control, Users, Files, Package managers, Video and Audio, Hacking tools, Terminal games and many more categories.
+- [Grok Bot Prompts &amp; AI Bot Directory | botdirectory.ai](https://botdirectory.ai/) - Browse ready-to-use bot prompts for Grok Bot, Rakazo, and other AI agents. Copy a workflow, connect its tools, and launch a scheduled bot in minutes.
+- [Curated tools and resources for builders | Buildcoolshit](http://buildcool.sh/) - Discover useful design, development, AI, and creative tools from their original creators, all in one curated directory.
+- [DeepWiki | AI documentation you can talk to, for every repo](https://deepwiki.com/) - DeepWiki provides up-to-date documentation you can talk to, for every repo in the world. Think Deep Research for GitHub - powered by Devin.
+- [Design Prompts - AI-Powered Design Style Explorer](https://www.designprompts.dev/) - Explore 31+ stunning design styles rendered from the same data. Get AI-ready prompts to recreate any aesthetic in your own projects.
+- ... and 27 more tools.
+
+### Useful apps
+- [GitHub - recloudstream/cloudstream: Android app for streaming and downloading media. · GitHub](https://cineplayapk.com/) - Android app for streaming and downloading media. Contribute to recloudstream/cloudstream development by creating an account on GitHub.
+
+### Useful things to do
+- [Emoji Kitchen](https://emojikitchen.dev/) - Unique illustrations of combined emoji, cooked up in Google
+- [The Evolution of Trust](https://ncase.me/trust/) - an interactive guide to the game theory of why &amp; how we trust each other
+
+### Video editing
+- [MoneyPrinterTurbo/README-en.md at main · harry0703/MoneyPrinterTurbo · GitHub](https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README-en.md) - 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. - MoneyPrinterTurbo/README-en.md at main · harry0703/MoneyPrinterTurbo
+- [An open-source OpusClip alternative](https://github.com/FujiwaraChoki/supoclip) - No description provided.
+- [GitHub - zhouxiaoka/autoclip: AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具 · GitHub](https://github.com/zhouxiaoka/autoclip/tree/main) - AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具 - zhouxiaoka/autoclip
+- [GitHub - jo-nike/clipforge: ClipForge is a web-based video clipping application that allows you to create clips from your Plex media server sessions. Monitor what&#39;s currently playing, generate pre](https://github.com/jo-nike/clipforge) - ClipForge is a web-based video clipping application that allows you to create clips from your Plex media server sessions. Monitor what&#39;s currently playing, generate precise video clips with frame-accurate trimming, and manage your video collection through an intuitive web interface. - jo-nike/clipforge
+- [GitHub - Ai-Haris/clipping-tool · GitHub](https://github.com/Ai-Haris/clipping-tool) - Contribute to Ai-Haris/clipping-tool development by creating an account on GitHub.
+- ... and 8 more tools.
+
+### Web scrapers
+- [GitHub - Panniantong/Agent-Reach: Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. · GitHub](https://github.com/Panniantong/agent-reach) - Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. - Panniantong/Agent-Reach
+- [GitHub - browser-use/browser-use: Agents that use the browser. · GitHub](https://github.com/browser-use/browser-use) - Agents that use the browser. Contribute to browser-use/browser-use development by creating an account on GitHub.
+- [GitHub - unclecode/crawl4ai: 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don&#39;t be shy, join here: https://discord.gg/jP8KfhDhyN · GitHub](https://docs.crawl4ai.com/) - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don&#39;t be shy, join here: https://discord.gg/jP8KfhDhyN - unclecode/crawl4ai
+- [GitHub - IHA089/Drana-Infinity: Drana-Infinity is a locally hosted advanced AI assistant designed and developed by IHA089. It’s built specifically for cybersecurity, ethical hacking, and bug bounty re](https://github.com/IHA089/Drana-Infinity) - Drana-Infinity is a locally hosted advanced AI assistant designed and developed by IHA089. It’s built specifically for cybersecurity, ethical hacking, and bug bounty research — empowering researchers to analyze, automate, and understand real-world vulnerabilities. - IHA089/Drana-Infinity
+- [GitHub - firecrawl/firecrawl: The web data API to search, scrape, and interact at scale. 🔥 · GitHub](https://www.firecrawl.dev/) - The web data API to search, scrape, and interact at scale. 🔥 - firecrawl/firecrawl
+- ... and 5 more tools.
+
+### Welcome!
+- [Markdown Guide | Joplin](https://joplinapp.org/help/apps/markdown) - Markdown is a simple way to format text that looks great on any device. It doesn&#x27;t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you alre...
+- [2. Importing and exporting notes](https://joplinapp.org/help/apps/import_export#exporting) - No description provided.
+- [Joplin Cloud Plans | Joplin](https://joplinapp.org/help/apps/sync/e2ee) - No description provided.
+- [Joplin Web Clipper | Joplin](https://joplinapp.org/donate/) - The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. To start using it, open the Joplin desktop application, go to the Configuration screen, o...
+- [GitHub - joplin/plugins: Joplin official plugin repository · GitHub](https://discourse.joplinapp.org/) - Joplin official plugin repository. Contribute to joplin/plugins development by creating an account on GitHub.
+
+
+_Generated for AI crawlers._

@@ -15,6 +15,18 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Dev Directory | Curated Stack",
   description: "A comprehensive, beautifully designed directory of nearly 600 AI models, developer APIs, codebase understanding tools, and tech platforms.",
+  openGraph: {
+    title: "Dev Directory | Curated Stack",
+    description: "A comprehensive, beautifully designed directory of nearly 600 AI models, developer APIs, codebase understanding tools, and tech platforms.",
+    url: "https://simon-riley17.github.io/dev-tools-directory/",
+    siteName: "Dev Directory",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dev Directory | Curated Stack",
+    description: "A comprehensive, beautifully designed directory of nearly 600 AI models, developer APIs, codebase understanding tools, and tech platforms.",
+  },
 };
 
 export default function RootLayout({
