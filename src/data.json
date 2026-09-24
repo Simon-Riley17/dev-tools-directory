@@ -632,6 +632,15 @@
         "githubUrl": "https://github.com/swe-agent/mini-swe-agent",
         "websiteUrl": null,
         "icon": "/icons/github.com.png"
+      },
+      {
+        "id": "agent-qa",
+        "category": "Ai Agents",
+        "title": "Agent QA",
+        "description": "The self-improving QA agent runs natural-language web and mobile tests, learns from past runs, and adapts when UI actions fail.",
+        "githubUrl": "https://github.com/vostride/agent-qa",
+        "websiteUrl": "https://vostride.com/docs/agent-qa",
+        "icon": "/icons/github.com.png"
       }
     ]
   },
